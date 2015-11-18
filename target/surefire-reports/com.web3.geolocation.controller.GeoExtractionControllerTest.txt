@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.web3.geolocation.controller.GeoExtractionControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.496 sec <<< FAILURE! - in com.web3.geolocation.controller.GeoExtractionControllerTest
+testExtactGeoInformationApi(com.web3.geolocation.controller.GeoExtractionControllerTest)  Time elapsed: 0.207 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.web3.geolocation.controller.GeoExtractionControllerTest.testExtactGeoInformationApi(GeoExtractionControllerTest.java:38)
+
